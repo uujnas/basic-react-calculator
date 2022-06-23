@@ -1,0 +1,32 @@
+.screen{
+  padding: 10px;
+  color:black;
+  font-size: 14px;
+  font-weight: 600px;
+  background-color: rgb(224, 217, 207);
+  border-radius: 5px;
+  width:320px;
+  padding: 30px;
+  margin: auto;
+}
+
+.buttonBox{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.buttonEqual{
+  background-color: rgb(51, 95, 72);
+  width: 370px;
+  padding: 20px;
+  margin: 20px 0px ;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 600px;
+  cursor: pointer;
+}
