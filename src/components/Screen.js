@@ -5,7 +5,6 @@ import Button from "./Button";
 
 const Screen = ()=>{
   const [btnValue, setValue] = useState("")
-  const [result, setResult] = useState("")
 
   const clickHandler = (event) => {
     setValue(btnValue + event.target.value)
